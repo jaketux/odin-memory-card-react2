@@ -1,0 +1,118 @@
+.header-div {
+  background-color: #222831;
+  border-bottom: 1px solid wht;
+  height: 75px;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scoreboard-div {
+  height: 100px;
+  width: 150px;
+  border: 1px solid black;
+}
+
+.scoreboard-header {
+  height: 30px;
+  background-color: #222831;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.scoreboard-lower {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.current-score {
+  margin-bottom: 5px;
+}
+
+.header-text {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #393e46;
+}
+
+#root {
+  width: 900px;
+  background-color: #efeeea;
+  height: 100vh;
+}
+
+.reset-icon {
+  height: 15px;
+  width: 15px;
+}
+
+.header-icon {
+  height: 45px;
+  width: 45px;
+  margin-right: 10px;
+}
+
+.reset-button {
+  font-size: 18px;
+  margin: 5px 10px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  flex-direction: column;
+}
+
+.main-game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-game-text {
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.card {
+  height: 175px;
+  width: 175px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.card-image {
+  height: 175px;
+  width: 175px;
+}
